@@ -42,3 +42,89 @@ a {
     flex-direction: column;
     overflow: hidden;
 }
+
+/* Nav */
+.navbar {
+    display: flex;
+    /* position: fixed; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 0px;
+    height: 10vh;
+    width: 100%;
+    /* background-color: rgba(0, 0, 0, 0.1); */
+    background-color: transparent;
+    z-index: 5;
+    line-height: 2rem;
+    letter-spacing: 5px;
+    font-weight: 200;
+    scroll-behavior: smooth;
+}
+
+.logo {
+    position: absolute;
+    left: 45px;
+    font-size: 6.5vh;
+    color: #fff;
+    cursor: pointer;
+    font-weight: lighter;
+}
+
+.menu {
+    display: flex;
+    position: relative;
+    /* padding-left: 10%;
+    padding-right: 10%; */
+    padding: auto;
+    float: right;
+    justify-content: space-between;
+    width: 30%;
+    right: -20rem;
+    font-size: 2rem;
+}
+
+.menu li {
+    display: inline;
+    /* justify-content: space-evenly; */
+}
+
+.menu li a {
+    color: rgb(117, 19, 19);
+    margin-right: -2em;
+}
+
+.menu li a:hover {
+    color: var(--primary-color);
+}
+
+/* Header Content */
+.header-content {
+    display: flex;
+    position: relative;   
+    margin-top: 200px;    
+    color: black;
+    background-color: transparent;
+    overflow: hidden;
+}
+
+.headline {
+    display: inline-flexbox;
+    position: relative;
+    color: black;
+    line-height: 1.5;
+    color: #000;
+    margin-bottom: 3%;
+    margin-top: 3%;
+    margin-left: 3%;
+    margin-right: 3%;
+    background-color: transparent;
+    color: rgb(47, 10, 10);
+
+}
+
+.headline h1 {
+    font-size: 3rem;
+    font-weight: lighter;
+
