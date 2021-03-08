@@ -5,11 +5,9 @@
 }
 
 :root {
-    --primary-color: #7ccf5a;
+    --primary-color: #cfb45a;
     --grey-color: #F5F5F5;
 }
-
-/* In Common Utilities: eg. btn */
 
 body {
     width: 100%;
@@ -36,7 +34,7 @@ a {
     width: 100%;
     height: 105vh;
     color: #000;
-    background: url() no-repeat bottom center/cover;
+    background: url(/img.jpg) no-repeat center center/cover;
     background-attachment: fixed;
     overflow: hidden;
     flex-direction: column;
@@ -129,33 +127,8 @@ a {
     font-weight: lighter;
 }
 
-.other-btn {
-    position: relative;
-    background-color: var(--primary-color);
-    color: #fff;
-    padding: 1.2rem 2rem;
-    letter-spacing: 3px;
-    margin-right: 5px;
-    margin-left: 5px;
-    border-radius: 2px;
-    font-weight: lighter;
-}
 
-.other-btn:hover {
-    color: #000;
-    background: #a3e05c;
-    transition: all 650ms;
-}
-
-hr {
-    width: 47rem;
-    border-color: var(--primary-color);
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: 7px;
-    margin-bottom: 5px;
-}
-
+/* Buttons */
 .main-btn {
     font-size: 1.5rem;
     background-color: var(--primary-color);
@@ -170,9 +143,38 @@ hr {
     font-weight: lighter;
 }
 
+/* reach out btn */
 .main-btn:hover {
     color: #000;
-    background: #fff;
+    background: #ce6a4b;
     transition: all 650ms;
 }
 
+
+.other-btn {
+    position: relative;
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 1.2rem 2rem;
+    letter-spacing: 3px;
+    margin-right: 5px;
+    margin-left: 5px;
+    border-radius: 2px;
+    font-weight: lighter;
+}
+
+.other-btn:hover {
+    color: #000;
+    background: #ce6a4b;
+    transition: all 650ms;
+}
+
+/* the horizontal line */
+hr {
+    width: 47rem;
+    border-color: var(--primary-color);
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 7px;
+    margin-bottom: 5px;
+}
