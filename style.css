@@ -5,8 +5,9 @@
 }
 
 :root {
-    --primary-color: #cfb45a;
+    --primary-color: #1c2b2d;
     --grey-color: #F5F5F5;
+    --backup-color: #4eb94a;
 }
 
 body {
@@ -89,12 +90,12 @@ a {
 }
 
 .menu li a {
-    color: rgb(117, 19, 19);
+    color: var(--primary-color);
     margin-right: -2em;
 }
 
 .menu li a:hover {
-    color: var(--primary-color);
+    color: var(--backup-color);
 }
 
 /* Header Content */
@@ -118,7 +119,7 @@ a {
     margin-left: 3%;
     margin-right: 3%;
     background-color: transparent;
-    color: rgb(47, 10, 10);
+    color: var(--backup-color);
 
 }
 
@@ -145,8 +146,9 @@ a {
 
 /* reach out btn */
 .main-btn:hover {
-    color: #000;
-    background: #ce6a4b;
+    /* color: var(--primary-color); */
+    color: #fff;
+    background: var(--backup-color);
     transition: all 650ms;
 }
 
@@ -165,7 +167,7 @@ a {
 
 .other-btn:hover {
     color: #000;
-    background: #ce6a4b;
+    background: var(--backup-color);
     transition: all 650ms;
 }
 
