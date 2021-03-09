@@ -178,3 +178,40 @@ hr {
     margin-top: 7px;
     margin-bottom: 5px;
 }
+
+
+/* RESPONSIVE  */
+
+@media(max-width: 1400px) {
+    .menu,
+    .main-btn {
+        display: none;
+    }
+    .headline h1 {
+        font-size: 3rem;
+    }
+    .headline h3 {
+        font-size: 2.5rem;
+    }
+    hr {
+        width: 45rem;
+    }
+}
+
+@media(max-width: 750px) {
+    .headline h1 {
+        font-size: 2.5rem;
+    }
+    .headline h3 {
+        font-size: 2.3rem;
+    }
+    .header-content {
+        margin-top: 200px;
+    }
+    hr {
+        width: 37rem;
+    }
+
+}
+
+
