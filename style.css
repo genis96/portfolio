@@ -34,7 +34,7 @@ a {
     width: 100%;
     height: 105vh;
     color: #000;
-    background: url(/img.jpg) no-repeat center center/cover;
+    background: url(/img.jpg) no-repeat top center/cover;
     background-attachment: fixed;
     overflow: hidden;
     flex-direction: column;
@@ -65,7 +65,7 @@ a {
     position: absolute;
     left: 45px;
     font-size: 6.5vh;
-    color: #fff;
+    color: #000;
     cursor: pointer;
     font-weight: lighter;
 }
@@ -211,7 +211,6 @@ hr {
     hr {
         width: 37rem;
     }
-
 }
 
 
