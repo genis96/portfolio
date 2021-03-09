@@ -194,6 +194,19 @@ hr {
     padding-left: 0%;
 }
 
+.card-body a {
+    color: black;
+    text-decoration: none;
+    list-style: none;
+}
+
+.card-body h1 a:hover {
+    cursor: pointer;
+    color: var(--primary-color);
+    text-decoration: none;
+    list-style: none;
+}
+
 /* RESPONSIVE  */
 
 @media(max-width: 1400px) {
