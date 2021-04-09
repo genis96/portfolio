@@ -209,6 +209,11 @@ hr {
     list-style: none;
 }
 
+.contact {
+    padding-top: 5%;
+    background-color: rgb(197, 187, 187);
+}
+
 /* RESPONSIVE  */
 
 @media(max-width: 1400px) {
